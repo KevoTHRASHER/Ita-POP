@@ -100,6 +100,11 @@ main {
 	background: #EBEBEB;
 }
 
+section .dot {
+	margin:  0 auto;
+	text-align: center;
+}
+
 .galeria {
 	margin: 0 auto;
 	height: 100%;
@@ -110,6 +115,17 @@ main {
 	height: 100%;
 	width: 100%;
 	display: block;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
 }
 
 h2 {
