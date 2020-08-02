@@ -96,6 +96,10 @@ nav ul li:hover {
 	background: #E10098;
 }
 
+main {
+	background: #EBEBEB;
+}
+
 .galeria {
 	margin: 0 auto;
 	height: 100%;
@@ -170,7 +174,7 @@ section {
 	margin: 13px;
 	max-width: 16%;
 	height: auto;
-	border-radius: 5%;
+	border-radius: 4px;
 }
 
 .masvendidos img:hover {
