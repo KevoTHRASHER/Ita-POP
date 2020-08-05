@@ -88,7 +88,7 @@ nav ul li {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 15px 25px;
+	padding: 15px 23px;
 }
 
 nav ul li a {
@@ -134,7 +134,7 @@ h2 {
 	height: auto;
 	font-family: Lato-Bold;
 	font-size: 2.5rem;
-	padding: 33px 25px;
+	padding: 30px 25px;
 	text-align: center;
 	color: white;
 	background: #E10098;
@@ -192,6 +192,7 @@ section {
 	max-width: 16%;
 	height: auto;
 	border-radius: 4px;
+	border: 2px solid red;
 }
 
 .masvendidos img:hover {
