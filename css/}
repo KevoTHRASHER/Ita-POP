@@ -10,7 +10,6 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	margin: 0;
 	max-width: 1920px;
-/*	min-width: 600px; */
 }
 
 @font-face {
@@ -21,6 +20,7 @@ body {
 @font-face {
 	font-family: Lato-Bold;
 	src: url('../fonts/Lato-Bold.ttf');
+
 }
 
 header {
@@ -178,7 +178,7 @@ section {
 
 .masvendidos {
 	margin: 0 auto;
-	max-width: 85%;
+	max-width: 80%;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	display: flex;
@@ -188,23 +188,16 @@ section {
 	justify-content: space-between;
 }
 
-.productoMasVendido {
-	margin: 20px;
-	max-width: 25%;
+.masvendidos img {
+	margin: 13px;
+	max-width: 26%;
 	height: auto;
 	border-radius: 4px;
 }
 
-.productoMasVendido img{
-	margin: 0 auto;
-	max-width: 100%;
-	height: auto;
-	border-radius: 4px 4px 0 0;
-}
-
-.productoMasVendido:hover {
+.masvendidos img:hover {
 	box-shadow: 8px 8px 8px rgba(254,2,154,0.40), 0 0 40px rgba(254,2,154,0.25) inset;
-	transform: scale(1.05, 1.05)
+	transform: scale(1.1, 1.1)
 }
 
 #bannerModa img {
