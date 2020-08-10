@@ -1,4 +1,4 @@
-/* GLOBAL STYLES */ *
+/* GLOBAL STYLES */
 * {
 box-sizing: border-box;
 	margin: 0;
@@ -28,11 +28,14 @@ header {
 	height: auto;
 	width: 100%;
 	font-family: Accent;
-	background: #E10098;
+	padding-top: 10px;
+/*	background: #E10098;       */
+	background: #000;
 	display: flex;
-	align-content: space-between;
+	align-content: center;
 	align-items: center;
 	text-align: center;
+	justify-content: center;
 }
 
 header a {
@@ -40,6 +43,7 @@ header a {
 }
 
 header img {
+	margin: 0 auto;
 	max-height: 70px;
 }
 
@@ -47,7 +51,7 @@ h1 {
 	margin: 0;
 	width: auto;
 	height: auto;
-	font-size: 50px;
+	font-size: 60px;
 	color: White;
 }
 
@@ -56,7 +60,7 @@ h1 {
 }
 
 #headerEmpujarImgIzq img {
-	max-height : 40px;
+	max-height : 50px;
 	height: auto;
 	padding-right: 20px;
 }
@@ -64,7 +68,7 @@ h1 {
 nav {
 	margin: 0 auto;
 	width: auto;
-	height:auto;
+	height: auto;
 	max-width: auto;
 	background: hotpink;
 	display: flex;
@@ -103,7 +107,7 @@ nav ul li:hover {
 }
 
 main {
-	background: #EBEBEB;
+	background: #FFF;
 }
 
 .galeriaSlider {
@@ -178,21 +182,24 @@ section {
 
 .masvendidos {
 	margin: 0 auto;
-	max-width: 85%;
+	max-width: 80%;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .productoMasVendido {
 	margin: 20px;
-	max-width: 25%;
+	max-width: 26%;
 	height: auto;
-	border-radius: 4px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .productoMasVendido img{
@@ -202,9 +209,43 @@ section {
 	border-radius: 4px 4px 0 0;
 }
 
+.productoMasVendido h4 {
+	margin-top: 5px;
+}
+
+.productoMasVendido p {
+	margin-top: 3px;
+}
+
+.productoMasVendido h5 {
+	margin: 3px;
+}
+
 .productoMasVendido:hover {
-	box-shadow: 8px 8px 8px rgba(254,2,154,0.40), 0 0 40px rgba(254,2,154,0.25) inset;
-	transform: scale(1.05, 1.05)
+	box-shadow: 7px 7px 7px rgba(254,2,154,0.40), 0 0 30px rgba(254,2,154,0.25) inset;
+	transform: scale(1.05, 1.05);
+}
+
+.botonComprar {
+	margin: 0;
+	height: auto;
+	max-width: 100%;
+	background: Black;
+	color: White;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	padding: 10px 35px;
+	border: 2px solid Black;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.botonComprar:hover {
+	background: White;
+	color: Black;
 }
 
 #bannerModa img {
@@ -215,7 +256,7 @@ section {
 	display: block;
 }
 
-.Ojos {
+.seccionProductos {
 	margin: 0 auto;
 	max-width: 1200px;
 	padding-top: 3%;
@@ -224,20 +265,42 @@ section {
 	align-items: center;
 	text-align: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 }
 
-.Ojos img {
+.producto {
 	margin: 25px;
 	max-width: 25%;
 	height: auto;
-	border-radius: 3%;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	border: 1px rgba(254,2,154,0.40);
 }
 
-.Ojos img:hover {
-	box-shadow: 8px 8px 8px rgba(254,2,154,0.40), 0 0 40px rgba(254,2,154,0.25) inset;
-	transform: scale(1.1, 1.1)
+.producto img {
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px 4px 0 0;
+}
+
+.producto h4 {
+	margin-top: 5px;
+}
+
+.producto p {
+	margin-top: 3px;
+}
+
+.producto h5 {
+	margin: 3px;
+}
+
+.producto:hover {
+	box-shadow: 7px 7px 7px rgba(254,2,154,0.40), 0 0 30px rgba(254,2,154,0.25) inset;
+	transform: scale(1.05, 1.05);
 }
 
 footer {
