@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="author" content="Gabriela Ita-ii Mijangos Zamudio">
+		<meta name="description" content="Tienda Maquillaje, Make Up">
+		<meta name="keywords" content="Tienda Maquillaje, Make Up">
+		<title>Ita-POP Make Up</title>
+		<link rel="stylesheet" href="css/normalize.css" media="all">
+		<link rel="stylesheet" href="css/style.css" media="all">
+		<script src="js/modernizr.js"></script>
+		<script src="js/prefixfree.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><img src="img/logoheader1.png" alt="Logo"></a>
+			<a href="index.html"><h1>Ita-POP</h1></a>
+			<div id="headerEmpujarImgIzq">
+				<a href="datosComprador.html"><img src="img/usericon.png" alt="User Icon PNG"></a><img src="img/bag.jpg" alt="">
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="rostro.html">Rostro</a></li>
+				<li><a href="ojos.html">Ojos</a></li>
+				<li><a href="cejas.html">Cejas</a></li>
+				<li><a href="labios.html">Labios</a></li>
+				<li><a href="accesorios.html">Accesorios</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section class="seccionProductos">
+				<form action="form.php" method="post" class="form-consulta">
+					<label>Nombres <span>*</span>
+						<input type="text" name="nombres" placeholder="Nombres" class="campo-form" required>
+					</label>
+					<label>Apellido Paterno<span>*</span>
+						<input type="text" name="apellidoPaterno" placeholder="Apellido Paterno" class="campo-form" required>
+					</label>
+					<label>Apellido Materno<span>*</span>
+						<input type="text" name="apellidoMaterno" placeholder="Apellido Materno" class="campo-form" required>
+					</label>
+					<label>Email: <span>*</span>
+						<input type="email" name="email" placeholder="Email" class="campo-form" required>
+					</label>
+					<label>Calle<span>*</span>
+						<input type="text" name="calle" placeholder="Calle" class="campo-form" required>
+					</label>
+					<label>Colonia<span>*</span>
+						<input type="text" name="colonia" placeholder="Colonia" class="campo-form" required>
+					</label>
+					<label>Codigo Postal<span>*</span>
+						<input id="" name="codigo postal" placeholder="Codigo Postal" class="campo-form" required pattern="[0-9]{5}$" title="Teclea un Codigo Postal valido. Ej: 70610">
+					</label>
+					<label>Telefono <span>*</span>
+						<input id="" name="movil" placeholder="Telefono" class="campo-form" required pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Teclea un numero telefonico valido. Ej: 228 157 4698">
+					</label>
+					<input type="submit" value="Enviar" class="btn-form">
+				</form>
+				<!-- formulario -->
+			</section>
+		</main>
+		<footer>
+			<p>Derechos Reservados &nbsp;<strong>&copy;Gabriela Ita-ii Mijangos Zamudio</strong></p><img src="img/Ita-ii-iPhone.png" alt="Ita-ii Memoji">
+		</footer>
+	</body>
+</html>
